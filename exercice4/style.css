@@ -1,0 +1,56 @@
+ul {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+ul li {
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0.5em;
+}
+
+.float {
+    float: left;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+
+.top {
+    text-align: center;
+}
+
+.d-flex {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: rgb(167, 161, 161);
+}
+
+.right-intro {
+    padding-right: 1.5rem;
+}
+
+.left-intro {
+    padding-left: 1.5rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5rem;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.float {
+    float: left;
+}

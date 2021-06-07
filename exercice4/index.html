@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <title>Document</title>
+</head>
+<header>
+    <nav class="navbar bg-dark text-light">
+        <ul>
+            <li class="float">Homepage</li>
+            <li>Home</li>
+            <li> <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Team</a></li>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Vincent</a></li>
+                <li><a class="dropdown-item" href="#">Beatrice</a></li>
+                <li><a class="dropdown-item" href="#">Rosita</a></li>
+            </ul>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="alert alert-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem amet illo, cum ex iusto fugiat, ducimus, non minima culpa laboriosam dolore. Totam laborum iusto adipisci eius omnis voluptatem esse eos.</div>
+        <div class="d-flex">
+            <div class="left-intro">
+                <h1>Hi ! My name is</h1>
+            </div>
+            <div class="right-intro">
+                <img src="../img/eminem.jpg" alt="eminem">
+                <h2>Slim Shady</h2>
+            </div>
+        </div>
+        <div class="txt">
+            <div>
+                <h3>Planification</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum atque quis voluptates ea officiis iste sed ipsum et eius vel, dolor neque maiores, eum maxime libero! Amet fuga omnis dignissimos.</p>
+            </div>
+            <div>
+                <h3>Action</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias perferendis est, voluptate quibusdam esse repellat doloremque impedit aliquam, facere autem voluptatum sapiente dolorum assumenda explicabo odio exercitationem corrupti repellendus.</p>
+            </div>
+            <div>
+                <h3>Analysis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod id adipisci rem tempora officia, consequuntur praesentium earum iure tempore, maiores placeat. Accusamus minima, repudiandae expedita magnam fuga asperiores quia quas.</p>
+            </div>
+        </div>
+        <div class="newsletter">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Signup newsletter
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">E-mail</span>
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary float">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+</html>
