@@ -14,12 +14,15 @@
         <ul>
             <li class="float">Homepage</li>
             <li>Home</li>
-            <li> <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Team</a></li>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Vincent</a></li>
-                <li><a class="dropdown-item" href="#">Beatrice</a></li>
-                <li><a class="dropdown-item" href="#">Rosita</a></li>
-            </ul>
+            <div class="droptest">
+                <li><a class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Team</a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Vincent</a></li>
+                        <li><a class="dropdown-item" href="#">Beatrice</a></li>
+                        <li><a class="dropdown-item" href="#">Rosita</a></li>
+                    </ul>
+                </li>
+            </div>
             <li>Contact</li>
         </ul>
     </nav>
@@ -68,13 +71,24 @@
                             <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
                         </div>
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-primary float">Subscribe</button>
+                    <div class="modal-footer flex justify-content-start">
+                      <button type="button" class="btn btn-primary">Subscribe</button>
                     </div>
                   </div>
                 </div>
               </div>
         </div>
+        <div>
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
     </div>
 </body>
 <footer>

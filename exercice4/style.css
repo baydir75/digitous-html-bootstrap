@@ -51,6 +51,16 @@ img {
     text-align: center;
 }
 
-.float {
-    float: left;
+.droptest {
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
 }
